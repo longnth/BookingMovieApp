@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Auth path="/dashboard" component={Dashboard} />
-        <Auth path="/dashboard" component={LoginAdmin} />
+        <Route path="/login" component={LoginAdmin} />
         <Route path="/" component={Home} />
       </Switch>
     </BrowserRouter>
